@@ -1,0 +1,53 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh
+}
+
+.login-content {
+    /* width: 20vw;
+    height: 40vh; */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    background-color: rgb(234, 232, 232);
+    border-radius: 5px;
+}
+
+.email-bar {
+    display: flex;
+    gap: 0px 35px;
+    align-items: center;
+}
+.password-bar {
+    display: flex;
+    gap: 0px 10px;
+    align-items: center;
+}
+
+label {
+    font-size: large;
+}
+
+#email {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#password {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
